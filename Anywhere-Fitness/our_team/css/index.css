@@ -357,6 +357,9 @@ nav .navigation {
 nav li {
   text-decoration: none;
 }
+header {
+  text-align: center;
+}
 .ourteam-body {
   max-width: 1300px;
   margin: 0 auto;
@@ -371,6 +374,7 @@ nav li {
   width: 49%;
   height: 24%;
   border-radius: 25px;
+  background-color: #b5cdd6;
 }
 .person img {
   width: 30%;
@@ -403,4 +407,8 @@ nav li {
 }
 .person button :hover {
   background-color: blue;
+}
+footer {
+  text-align: center;
+  background-color: grey;
 }
