@@ -22,6 +22,11 @@ body {
             background-color: @text-color;
             font-size: 1.5rem;
             text-shadow: 1px 1px @alternative-color;
+            
+            a {
+                text-decoration: none;
+                color: @main-color;
+            }//closes a
         }//closes button
 
         button:hover {
@@ -68,19 +73,34 @@ body {
         h2 {
             color: @text-color;
             font-size: 3rem;
+            margin: 1% 0;
         }//closes h2
 
         h3{
             color: @text-color;
             font-size: 1.5rem;
             text-decoration: underline;
+            margin: 1% 0;
         }//closes h3
 
-        p {
+        button {
+            width: 20%;
+            border-radius: 10px;
+            margin: 1% 0 0 0;
+
+            a {
+                text-decoration: none;
+                font-size: 2rem;
+                text-shadow: 1px 1px @alternative-color;
+                color: @main-color;
+            }//closes a
+        }//closes button
+
+        button:hover {
             color: @text-color;
-            font-size: 1rem;
-            margin-top: 1%;
-        }//closes p
+            background-color: @alternative-color;
+        }//closes button:hover
+
     }//closes .team-member
 }//closes .team-member-boxes
 

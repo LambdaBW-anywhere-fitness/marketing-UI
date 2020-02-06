@@ -161,17 +161,20 @@ body {
 .container .get-started-button button {
   width: 70%;
   background-color: orange;
-  color: white;
+  color: orange;
   font-size: 3rem;
   text-shadow: 2px 2px black;
   padding: 2%;
   border: 5px solid white;
   border-radius: 20px;
   margin-bottom: 3%;
-  font-family: 'Roboto';
 }
-.container button:hover {
-  background-color: white;
+.container .get-started-button button a {
+  text-decoration: none;
+  color: white;
+}
+.container .get-started-button button:hover {
+  background-color: black;
   color: orange;
 }
 .container2 {
@@ -244,6 +247,10 @@ body {
   font-size: 1.5rem;
   text-shadow: 1px 1px black;
 }
+.header nav button a {
+  text-decoration: none;
+  color: orange;
+}
 .header nav button:hover {
   color: white;
   background-color: black;
@@ -282,16 +289,28 @@ body {
 .team-member-boxes .team-member h2 {
   color: white;
   font-size: 3rem;
+  margin: 1% 0;
 }
 .team-member-boxes .team-member h3 {
   color: white;
   font-size: 1.5rem;
   text-decoration: underline;
+  margin: 1% 0;
 }
-.team-member-boxes .team-member p {
+.team-member-boxes .team-member button {
+  width: 20%;
+  border-radius: 10px;
+  margin: 1% 0 0 0;
+}
+.team-member-boxes .team-member button a {
+  text-decoration: none;
+  font-size: 2rem;
+  text-shadow: 1px 1px black;
+  color: orange;
+}
+.team-member-boxes .team-member button:hover {
   color: white;
-  font-size: 1rem;
-  margin-top: 1%;
+  background-color: black;
 }
 footer {
   width: 100%;
