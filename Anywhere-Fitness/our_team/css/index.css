@@ -383,8 +383,18 @@ header .inner-header {
   margin-top: 10px;
   background-color: #e0e0e0;
 }
+@media (max-width: 800px) {
+  header .inner-header {
+    margin: 5px 5px;
+  }
+  header .inner-header p {
+    text-align: left;
+    margin: 0px 5px;
+  }
+}
 header .inner-header p {
   font-size: 2.5rem;
+  text-align: left;
   font-family: 'Roboto Slab', serif;
 }
 header .inner-header h1,
@@ -395,12 +405,23 @@ header .inner-header h2 {
   max-width: 1300px;
   margin: 0 auto;
 }
+@media (max-width: 800px) {
+  .ourteam-body {
+    height: 1000px;
+  }
+}
 .ourteam-container {
   display: flex;
   flex-wrap: wrap;
   height: 1850px;
   margin: 10px 0px;
   justify-content: space-evenly;
+}
+@media (max-width: 800px) {
+  .ourteam-container {
+    height: 4100px;
+    margin: 5px 5px;
+  }
 }
 .person {
   width: 49%;
@@ -409,6 +430,13 @@ header .inner-header h2 {
   font-family: 'Roboto Slab', serif;
   background-color: #9e9e9e;
   background-image: url(../images/brick_img.jpg);
+}
+@media (max-width: 800px) {
+  .person {
+    width: 750px;
+    height: 500px;
+    margin: 5px 0px;
+  }
 }
 .person img {
   width: 30%;
