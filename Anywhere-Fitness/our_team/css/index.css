@@ -393,6 +393,7 @@ header .inner-header {
   }
 }
 header .inner-header p {
+  margin: 0px 15px;
   font-size: 2.5rem;
   text-align: left;
   font-family: 'Roboto Slab', serif;
