@@ -348,13 +348,29 @@ img {
 }
 nav {
   display: flex;
+  background-color: #252525;
 }
 nav .navigation {
   width: 1000px;
   margin: 0 auto;
 }
-nav li {
+nav .navigation h1 {
+  color: white;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+}
+nav .nav-links {
+  display: flex;
+  justify-content: space-around;
+}
+nav .nav-links li {
+  list-style: none;
+}
+nav .nav-links li a {
+  color: white;
+  font-size: 2.5rem;
   text-decoration: none;
+  font-family: 'Roboto Slab', serif;
 }
 header {
   display: flex;
@@ -363,9 +379,16 @@ header {
 header .inner-header {
   width: 1400px;
   text-align: center;
+  border-radius: 25px;
+  margin-top: 10px;
+  background-color: #e0e0e0;
 }
 header .inner-header p {
   font-size: 2.5rem;
+  font-family: 'Roboto Slab', serif;
+}
+header .inner-header h1,
+header .inner-header h2 {
   font-family: 'Roboto Slab', serif;
 }
 .ourteam-body {
@@ -384,13 +407,15 @@ header .inner-header p {
   height: 24%;
   border-radius: 25px;
   font-family: 'Roboto Slab', serif;
-  background-color: #b5cdd6;
+  background-color: #9e9e9e;
+  background-image: url(../images/brick_img.jpg);
 }
 .person img {
   width: 30%;
   display: block;
   margin: 5px auto;
   border-radius: 360%;
+  border: 3px white solid;
 }
 .person h2,
 .person h3,
@@ -398,6 +423,7 @@ header .inner-header p {
   width: 96%;
   margin: 2px auto;
   padding: 0px 0px;
+  color: #777575;
   text-align: center;
   font-size: 2.3rem;
   font-family: 'Roboto Slab', serif;
@@ -419,14 +445,17 @@ header .inner-header p {
   margin: 0 auto;
   height: 7%;
   width: 96%;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 25px;
+  border: 1px solid black;
 }
 footer {
   text-align: center;
-  background-color: grey;
+  background-color: #252525;
 }
 footer p {
+  color: white;
   margin: 0;
   padding: 20px 0;
 }
