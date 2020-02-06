@@ -402,6 +402,31 @@ header .inner-header h1,
 header .inner-header h2 {
   font-family: 'Roboto Slab', serif;
 }
+.main-page {
+  margin: 0 auto;
+  max-width: 1400px;
+}
+.inner-page {
+  margin: 10px;
+  height: 715px;
+  display: flex;
+  border-radius: 150px;
+  background-size: cover;
+  background-image: url(../images/gym_background2.jpg);
+}
+.inner-page button {
+  color: black;
+  height: 10%;
+  width: 400px;
+  font-size: 3rem;
+  border-radius: 100px;
+  border: 3px solid #252525;
+  background-color: #d3d2d2;
+}
+.inner-page a {
+  margin: auto auto;
+  display: inline-block;
+}
 .ourteam-body {
   max-width: 1300px;
   margin: 0 auto;
